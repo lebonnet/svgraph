@@ -1,3 +1,29 @@
 .svgraph {
+  padding: 10px;
+  background: #f9f9f9;
+  border: 1px solid #fff;
+  box-shadow: rgba(136, 136, 136, 0.18) 0 0 1px 2px;
 
+  .svgraph-axis {
+    stroke: #a0a0a0;
+  }
+
+  .svgraph-circle {
+    fill: #fff;
+  }
+
+  .svgraph-circle-outer {
+    fill: #8ebfd2;
+  }
+
+  .svgraph-path {
+    stroke: #2b84a5;
+  }
+
+  text {
+    font-family: Tahoma, sans-serif;
+    cursor: default;
+    font-size: 12px;
+    fill: #000;
+  }
 }
